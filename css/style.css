@@ -1,0 +1,23 @@
+.main{
+    width: 100%;
+    background-color:rgb(221, 208, 182);
+    padding-left: 160px;
+    padding-top: 10px;
+}
+.back{
+    width: 100%;
+    background-color:rgb(221, 208, 182);
+    font-size: 11px;
+    font-weight: 600;
+    text-align: left
+}
+.bar{
+    background-color: rgb(31, 28, 28);
+    width: 100%;
+    padding-left: 155px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav{
+    width: 100%;
+}
