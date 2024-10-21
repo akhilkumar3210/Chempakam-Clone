@@ -1,23 +1,284 @@
-.main{
+.main {
     width: 100%;
-    background-color:rgb(221, 208, 182);
+    background-color: #FFE8DF;
     padding-left: 160px;
     padding-top: 10px;
 }
-.back{
+
+.back {
     width: 100%;
-    background-color:rgb(221, 208, 182);
+    background-color: #FFE8DF;
     font-size: 11px;
     font-weight: 600;
     text-align: left
 }
-.bar{
+
+.bar {
+    display: flex;
     background-color: rgb(31, 28, 28);
     width: 100%;
     padding-left: 155px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.nav{
+
+.dropdown {
+    padding-left: 75px;
+    padding-top: 26px;
+    padding-right: 15px;
+}
+
+.btn-1 {
+    color: white;
+}
+
+.nav2 {
+    padding-top: 22px;
+    padding-right: 15px;
+}
+
+.nav3 {
+    padding-top: 24px;
+}
+
+.search {
+    padding-top: 24px;
+    padding-right: 30px;
+
+}
+
+
+
+.box {
+    background-color: rgb(27, 25, 25);
+    margin-right: -10%;
+}
+
+.ic {
+    padding-top: 23px;
+}
+
+.ic1 {
+    padding-top: 23px;
+    padding-left: 20px;
+}
+
+.ic2 {
+    padding-top: 23px;
+    padding-left: 20px;
+}
+
+.ic3 {
+    padding-top: 22px;
+    padding-left: 20px;
+}
+
+.main2 {
+    position: relative;
     width: 100%;
+}
+
+.tline {
+    color: white;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 56.4px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+
+}
+
+.sub {
+    position: absolute;
+    top: 90px;
+    left: 28%;
+}
+
+.btn1 {
+    border-radius: 0px;
+    padding: 15px 55px;
+    font-size: 14px;
+    font-weight: 600;
+    color: aliceblue;
+    text-shadow: none;
+}
+
+.carote {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+}
+
+.d-block {
+    border-radius: 50%;
+    width: 177px;
+    height: 177px;
+}
+
+.caro {
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+
+.title1 {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: gray;
+    text-align: center;
+
+}
+
+.a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c {
+    text-align: center;
+    color: rgb(150, 145, 145);
+    font-family: "Afacad Flux", sans-serif;
+
+}
+
+.b {
+    background-color: grey;
+    border-radius: 50%;
+
+}
+
+.card {
+    width: 80%;
+    display: flex;
+    border-width: 0px;
+}
+
+.s1 {
+    width: 285px;
+    height: 285px;
+}
+
+.t1 {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.tt {
+    width: 85%;
+    font-family: "Afacad Flux", sans-serif;
+    color: #888888;
+}
+
+.btn2 {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 15px;
+    border-radius: 0px;
+    padding: 10px 30px;
+    background: #F0F0F0;
+    border: 1px solid #888888;
+    color: #888888;
+}
+
+.sub2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.but {
+    text-shadow: 0 0 10px transparent;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 40px;
+    border-color: #888;
+    color: #888;
+
+}
+
+.b1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.main5 {
+    background-color: black;
+    width: 100%;
+}
+
+.sub4 {
+    padding-top: 40px;
+    padding-left: 155px;
+    position: relative;
+}
+
+.rr {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.r1 {
+    padding: 10px;
+}
+
+.pr {
+    color: white;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.main5 {
+    display: flex;
+}
+
+.sub5 {
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+.sub5 h5 {
+    color: white;
+    margin-bottom: 35px;
+    font-family: "Afacad Flux", sans-serif;
+
+}
+
+.sub5 ul {
+    color: white;
+    list-style: none;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.sub5 ul li {
+    margin-bottom: 10px;
+}
+
+.ct1 {
+    display: flex;
+}
+
+.sub6 {
+    padding-top: 40px;
+    margin-left: 190px;
+}
+
+.sub6 h5 {
+    color: white;
+    font-family: "Afacad Flux", sans-serif;
+    margin-bottom: 35px;
+}
+
+.ct2 {
+    color: white;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.ct3 {
+    margin-right: 10px;
+}
+
+.grid{
+    padding-left: 15px;
 }
