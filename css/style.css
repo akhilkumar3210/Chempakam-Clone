@@ -7,25 +7,30 @@
 
 .back {
     width: 100%;
-    background-color: #FFE8DF;
     font-size: 11px;
     font-weight: 600;
-    text-align: left
 }
 
 .bar {
-    display: flex;
+    
     background-color: rgb(31, 28, 28);
     width: 100%;
-    padding-left: 155px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+.bar1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 25%;
+
+}
+
 .dropdown {
-    padding-left: 75px;
     padding-top: 26px;
-    padding-right: 15px;
 }
 
 .btn-1 {
@@ -34,7 +39,6 @@
 
 .nav2 {
     padding-top: 22px;
-    padding-right: 15px;
 }
 
 .nav3 {
@@ -43,15 +47,11 @@
 
 .search {
     padding-top: 24px;
-    padding-right: 30px;
 
 }
 
-
-
 .box {
     background-color: rgb(27, 25, 25);
-    margin-right: -10%;
 }
 
 .ic {
@@ -60,22 +60,21 @@
 
 .ic1 {
     padding-top: 23px;
-    padding-left: 20px;
 }
 
 .ic2 {
     padding-top: 23px;
-    padding-left: 20px;
+
 }
 
 .ic3 {
     padding-top: 22px;
-    padding-left: 20px;
+
 }
 
 .main2 {
     position: relative;
-    width: 100%;
+    width: 120%;
 }
 
 .tline {
@@ -122,7 +121,7 @@
 
 .title1 {
     font-family: "Afacad Flux", sans-serif;
-    font-size: 45px;
+    font-size: 4vw;
     font-weight: 500;
     font-style: normal;
     font-variation-settings: "slnt" 0;
@@ -134,6 +133,8 @@
 .a {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 5%;
 }
 
 .c {
@@ -147,12 +148,6 @@
     background-color: grey;
     border-radius: 50%;
 
-}
-
-.card {
-    width: 80%;
-    display: flex;
-    border-width: 0px;
 }
 
 .s1 {
@@ -182,11 +177,14 @@
     color: #888888;
 }
 
-.sub2 {
-    display: flex;
-    justify-content: space-between;
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: auto;
     padding-top: 30px;
 }
+
 
 .but {
     text-shadow: 0 0 10px transparent;
@@ -281,4 +279,38 @@
 
 .grid{
     padding-left: 15px;
+}
+
+@media screen  and (max-width:576px) {
+    .main {
+        width: 220%;
+        background-color: #FFE8DF;
+        padding-left: 160px;
+        padding-top: 10px;
+    }
+    
+    .back {
+        width: 100%;
+        font-size: 4vw;
+        font-weight: 600;
+    }
+    
+    .bar {
+        display: flex;
+        background-color: rgb(31, 28, 28);
+        width: 220%;
+        padding-left: 155px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .dropdown {
+        padding-left: 75px;
+        padding-top: 26px;
+        padding-right: 15px;
+    }
+    
+    
+    
+    
 }
